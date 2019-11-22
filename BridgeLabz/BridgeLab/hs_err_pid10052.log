@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fafa466d231, pid=10052, tid=10069
+#
+# JRE version: Java(TM) SE Runtime Environment (13.0.1+9) (build 13.0.1+9)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (13.0.1+9, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x4231]  ImageStrings::find(Endian*, char const*, int*, unsigned int)+0x71
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P" (or dumping to /home/rahul/git/BridgeLabz/BridgeLab/core.10052)
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:40465 -javaagent:/home/rahul/eclipse/java-2019-09/eclipse/configuration/org.eclipse.osgi/223/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 --module-path=/home/rahul/git/BridgeLabz/BridgeLab/bin:/home/rahul/.p2/pool/plugins/org.junit.jupiter.api_5.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.jupiter.engine_5.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.jupiter.migrationsupport_5.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.jupiter.params_5.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.platform.commons_1.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.platform.engine_1.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.platform.launcher_1.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.platform.runner_1.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.platform.suite.api_1.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit.vintage.engine_5.5.1.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.opentest4j_1.2.0.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.apiguardian_1.1.0.v20190826-0900.jar:/home/rahul/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/home/rahul/.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar -Djdk.module.main=BridgeLab BridgeLab/com.bridgelabz.basic.LeapYear
+
+Host: 
